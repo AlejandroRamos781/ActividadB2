@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <h4 class="text-white">+555 555 555</h4>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./impprimary.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imgsecondary.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imgthird.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container text-center p-5">
+    <h1>Lorem, ipsum dolor.</h1>
+    <p class="text-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus corrupti, cupiditate
+      excepturi rerum incidunt quae nemo temporibus ab alias maxime expedita possimus laborum cum ipsa tempore, deserunt
+      officiis porro minima facere quasi debitis autem nisi eius laboriosam? Nulla eos omnis obcaecati totam, tempora,
+      fugiat laudantium ullam, velit accusantium quia beatae?</p>
+  </div>
+  <div class="row d-flex align-content-around flex-wrap p-5 sm " style="justify-content: space-around; ">
+    
+    <div class="card m-2 p-0 " style="width: 18rem; border-radius: 0;">
+      <img src="./impprimary.jpg" class="card-img-top m-0" style="border-radius: 0;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-info text-white">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card m-2 p-0" style="width: 18rem; border-radius: 0;">
+      <img src="./imgsecondary.jpg" class="card-img-top" style="border-radius: 0;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-info text-white">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card m-2 p-0  " style="width: 18rem; border-radius: 0;">
+      <img src="./imgthird.jpg" class="card-img-top" style="border-radius: 0;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-info text-white">Go somewhere</a>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="jumbotron p-5 bg-light">
+
+    <h1 class="display-4  mx-5">Hello, world!</h1>
+    <p class="lead  mx-5">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+      featured content or information.</p>
+    <hr class="my-4  mx-5">
+    <p class=" mx-5">It uses utility classes for typography and spacing to space content out within the larger
+      container.</p>
+    <a class="btn btn-primary btn-lg  mx-5" href="#" role="button">Learn more</a>
+  </div>
+
+  <div class="container text-center p-5">
+    <div class="row justify-content-center">
+      <h1>Lorem, ipsum dolor.</h1>
+      <p class="text-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus corrupti, cupiditate
+        excepturi rerum incidunt quae nemo temporibus ab alias maxime expedita possimus laborum cum ipsa tempore,
+        deserunt officiis porro minima facere quasi debitis autem nisi eius laboriosam? Nulla eos omnis obcaecati totam,
+        tempora, fugiat laudantium ullam, velit accusantium quia beatae?</p>
+
+      <div class="row col-12 col-md-6 col-sm-12 m-0">
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-info  text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-info  text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-info text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="row col-12 col-md-6 col-sm-12 m-0  ">
+        <ul class="list-group">
+          <li class="list-group-item"><img class="img-thumbnail" src="./impprimary.jpg"><img /></li>
+          <li class="list-group-item bg-info text-white">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class=" text-center text-lg-start">
+
+    <div class="text-center p-3 bg-secondary text-white">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nam voluptas voluptate aut molestias
+        eaque minima cum, iure, adipisci quo temporibus earum, consectetur veritatis neque cumque sequi quos distinctio.
+        Laudantium.</p>
+
+    </div>
+
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</html>
